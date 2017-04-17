@@ -1,0 +1,634 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ico_Favorites" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Favorites.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Panelwhite" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Panelwhite.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Registry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Registry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Pictures" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Pictures.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_AB" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_AB.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Critical" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Critical.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_GIDNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_GIDNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Clockbig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Clockbig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Rename" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Rename.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Fundamental" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Fundamental.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_Internet" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_Internet.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Menubar2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Menubar2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Attributes" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Attributes.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_BatteryFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_BatteryFull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BCL" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BCL.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Left" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Left.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Clock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Clock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Systemunit" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Systemunit.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SwapFile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SwapFile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_Normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_deletesmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_deletesmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SingnalFull" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SingnalFull.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="minimize_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\minimize_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Compatible" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Compatible.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Spanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Spanner.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_alpha_CPU_16x16" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_alpha_CPU_16x16.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Vista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Vista.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Taskbar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Taskbar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_BatteryCharging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_BatteryCharging.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_ServiceStart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_ServiceStart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Tools" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Tools.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_powerpreferences" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_powerpreferences.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LED_Red" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LED_Red.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonBG" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonBG.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Save" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Save.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_Active" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_Active.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Check" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Check.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Arrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Arrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_worldmap" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_worldmap.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_Ding" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_Ding.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ico_Update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Update.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Sidebar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Sidebar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_Logon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_Logon.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Intergrater3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Intergrater3.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_web" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_web.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_Entertainment" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_Entertainment.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_TaskmgrNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_TaskmgrNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_scan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_scan.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_TaskmgrHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_TaskmgrHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_GoogleImages" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\GID 1Image 0.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_About.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="royal_browser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\royal_browser.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_MainSplash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_MainSplash.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_CPUBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_CPUBig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="tab_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tab_Hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_FileUploadNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_FileUploadNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_ServiceManager" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_ServiceManager.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Undo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Undo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="loop_KKid" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Abmwave.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="Calchelp" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Calchelp.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_BatteryNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_BatteryNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SwitchOn" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SwitchOn.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_ServicePause" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_ServicePause.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_RefreshSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_RefreshSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Aloysius" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Aloysius.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_encrypt" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_encrypt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_ServiceResume" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_ServiceResume.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_IViewerHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_IViewerHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Analyser" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Analyser.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Crown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Crown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_Logoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_Logoff.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="sfx_Photoflash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_Photoflash.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ico_Shredder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ioc_shredder.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Side_Systemdevices" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Side_Systemdevices.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Google" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Google.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Menubar1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Menubar1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Switchoff" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Switchoff.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animation_GreenLoader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\progress_circle.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_WebBrowserHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_WebBrowserHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_FeedDiscovered" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_FeedDiscovered.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="button_MPlayerHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_MPlayerHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="arrow_Right" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\arrow_Right.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SecurityCenteSmall" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SecurityCenteSmall.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Reset" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Reset.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Service" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Service.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_AddToList" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_AddToList.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_Windows" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_Windows.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_ProgramDeactivator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_ProgramDeactivator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_GreenPlus" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_GreenPlus.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Plugin" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Plugin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_FileDownloaderHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_FileDownloaderHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_SriLanka" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_SriLanka.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="BSN" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\BSN.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="pic_About1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\pic_About1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonGreen" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonGreen.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_WebBrowserNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_WebBrowserNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layerbutton_Hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layerbutton_Hover.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonGreenH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonGreenH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Exiting" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Exiting.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallswitch_off" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small-switch-off.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ico_EnergyOptions" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ico_EnergyOptions.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SingnalNone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SingnalNone.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Print" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Print.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_NFS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_NFS.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_cpu3d" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_cpu3d.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_Filesystem1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_Filesystem1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="icon_RescueCenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\icon_RescueCenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Facebook" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Facebook.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Projection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Projection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_FileDownloaderNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_FileDownloaderNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_SubSplashs" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_SubSplashs.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_PopupBlocked" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_PopupBlocked.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ico_reportcenter" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_reportcenter.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Calculator" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Calculator.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_Filesystem" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_Filesystem.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_sidebar" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_sidebar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_GO" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_GO.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_bgleft" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_bgleft.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_User" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_User.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Fonts" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Fonts.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Notepad" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Notepad.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Redo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Redo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="layerbutton_Normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\layerbutton_Normal.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Shutdown" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Shutdown.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_FileUploadHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_FileUploadHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_BatteryLow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_BatteryLow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_alpha_programmstart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_alpha_programmstart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="SideBarMU" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SideBarMU.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Calender" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Calender.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Shredder" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Shredder;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="ico_ServiceStop" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_ServiceStop.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_delete" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_delete.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_GIDHover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_GIDHover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_XPPowerstate" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_XPPowerstate.bmp;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Camera" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Camera.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_hover" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_hover.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="LED_Green" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\LED_Green.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_GoArrow" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_GoArrow.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_System" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_System.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="badge_MainUT" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_MainUT.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_risky" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_risky.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonGreyH" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonGreyH.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Reload" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Reload.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="smallswitch_on" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\small-switch-on.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Protection" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Protection.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Folderimage" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Folderimage.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Download" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Download.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Ico_RAMBig" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Ico_RAMBig.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Plug" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Plug.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="sfx_Navigation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sfx_Navigation.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="badge_MyComputer" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\badge_MyComputer.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Alarm" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Alarm.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SessionLogout" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SessionLogout.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_UserInfo" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_UserInfo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_SandClock" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_SandClock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="EULA" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\EULA.rtf;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;Windows-1252</value>
+  </data>
+  <data name="button_MPlayerNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_MPlayerNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="button_IViewerNormal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\button_IViewerNormal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Analyserpng" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Analyserpng.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_BlackVista" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_BlackVista.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="close_normal" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\close_normal.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Exclamation" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Exclamation.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animation_BlackLoader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ani_Loader[1].gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="logo_registry" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\logo_registry.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Chart" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Chart.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ButtonGrey" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ButtonGrey.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_RepairWizard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_RepairWizard.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ico_Progress" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ico_Progress.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_Header" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_Header.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="bg_SplashBYE" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg_SplashBYE.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

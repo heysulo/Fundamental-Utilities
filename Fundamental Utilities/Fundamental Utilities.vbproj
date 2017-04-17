@@ -1,0 +1,1315 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{13C3354D-81D8-478F-A66B-7D5EED116423}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>Fundamental_Utilities.My.MyApplication</StartupObject>
+    <RootNamespace>Fundamental_Utilities</RootNamespace>
+    <AssemblyName>Fundamental Utilities</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <SupportUrl>http://www.facebook.com/sulochana.kodituwakku</SupportUrl>
+    <ProductName>Fundamental Utities</ProductName>
+    <PublisherName>SSC Corporations</PublisherName>
+    <SuiteName>Fundamental Utities</SuiteName>
+    <TrustUrlParameters>true</TrustUrlParameters>
+    <ApplicationRevision>5</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>true</UseApplicationTrust>
+    <CreateDesktopShortcut>true</CreateDesktopShortcut>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <BootstrapperComponentsLocation>Relative</BootstrapperComponentsLocation>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>..\..\..\..\..\Desktop\FU4\Compiler\</OutputPath>
+    <DocumentationFile>Fundamental Utilities.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>Fundamental Utilities.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>BE7C9ACA11EBC470A4EF75600F0ED557CF239D72</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>My Project\app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>icon_FU.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Entertainment\frmImageViewer.Designer.vb">
+      <DependentUpon>frmImageViewer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entertainment\frmImageViewer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Entertainment\frmMediaPlayer.Designer.vb">
+      <DependentUpon>frmMediaPlayer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Entertainment\frmMediaPlayer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmCalchelp.Designer.vb">
+      <DependentUpon>frmCalchelp.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmCalchelp.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmDownloadOptions.Designer.vb">
+      <DependentUpon>frmDownloadOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmDownloadOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmENCProgress.Designer.vb">
+      <DependentUpon>frmENCProgress.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmENCProgress.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmLicense.Designer.vb">
+      <DependentUpon>frmLicense.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmLicense.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmMemoryOptimiser.Designer.vb">
+      <DependentUpon>frmMemoryOptimiser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmMemoryOptimiser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmNewDownload.Designer.vb">
+      <DependentUpon>frmNewDownload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmNewDownload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmNewUpload.Designer.vb">
+      <DependentUpon>frmNewUpload.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmNewUpload.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmProcessMgr.Designer.vb">
+      <DependentUpon>frmProcessMgr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmProcessMgr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmRestarting.Designer.vb">
+      <DependentUpon>frmRestarting.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmRestarting.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmTaskMgr.Designer.vb">
+      <DependentUpon>frmTaskMgr.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmTaskMgr.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmTermsofUse.Designer.vb">
+      <DependentUpon>frmTermsofUse.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmTermsofUse.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\frmVirtualMonitor.Designer.vb">
+      <DependentUpon>frmVirtualMonitor.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\frmVirtualMonitor.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\NLOptions.Designer.vb">
+      <DependentUpon>NLOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\NLOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\PLOptions.Designer.vb">
+      <DependentUpon>PLOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\PLOptions.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Extras\Preview.Designer.vb">
+      <DependentUpon>Preview.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Extras\Preview.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmCopyDirectory.Designer.vb">
+      <DependentUpon>frmCopyDirectory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmCopyDirectory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSCopyFile.Designer.vb">
+      <DependentUpon>frmFSCopyFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSCopyFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSCreatedirectoey.Designer.vb">
+      <DependentUpon>frmFSCreatedirectoey.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSCreatedirectoey.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSDeleteDirectory.Designer.vb">
+      <DependentUpon>frmFSDeleteDirectory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSDeleteDirectory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSDeleteFile.Designer.vb">
+      <DependentUpon>frmFSDeleteFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSDeleteFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSDirectoryAttributes.Designer.vb">
+      <DependentUpon>frmFSDirectoryAttributes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSDirectoryAttributes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSFileAttributes.Designer.vb">
+      <DependentUpon>frmFSFileAttributes.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSFileAttributes.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSMoveDirectory.Designer.vb">
+      <DependentUpon>frmFSMoveDirectory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSMoveDirectory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSMoveFile.Designer.vb">
+      <DependentUpon>frmFSMoveFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSMoveFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSRenameDirectory.Designer.vb">
+      <DependentUpon>frmFSRenameDirectory.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSRenameDirectory.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FSystem\frmFSRenameFile.Designer.vb">
+      <DependentUpon>frmFSRenameFile.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FSystem\frmFSRenameFile.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Greetings\ExitingFU.Designer.vb">
+      <DependentUpon>ExitingFU.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Greetings\ExitingFU.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Greetings\MainSplashScreen.Designer.vb">
+      <DependentUpon>MainSplashScreen.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Greetings\MainSplashScreen.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intarnet\frmIDManager.Designer.vb">
+      <DependentUpon>frmIDManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intarnet\frmIDManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intarnet\frmINTGoogleID.Designer.vb">
+      <DependentUpon>frmINTGoogleID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intarnet\frmINTGoogleID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intarnet\frmINTWebBroweser.Designer.vb">
+      <DependentUpon>frmINTWebBroweser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intarnet\frmINTWebBroweser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intarnet\frmIUManager.Designer.vb">
+      <DependentUpon>frmIUManager.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intarnet\frmIUManager.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Intergrator.Designer.vb">
+      <DependentUpon>Intergrator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Intergrator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmActivityAnalyser.Designer.vb">
+      <DependentUpon>frmActivityAnalyser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmActivityAnalyser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmAdCalculator.Designer.vb">
+      <DependentUpon>frmAdCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmAdCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmAlarm.Designer.vb">
+      <DependentUpon>frmAlarm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmAlarm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmNotepad.Designer.vb">
+      <DependentUpon>frmNotepad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmNotepad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmScreenCapturer.Designer.vb">
+      <DependentUpon>frmScreenCapturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmScreenCapturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmShredder.Designer.vb">
+      <DependentUpon>frmShredder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmShredder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MUtilities\frmTextEncrypter.Designer.vb">
+      <DependentUpon>frmTextEncrypter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MUtilities\frmTextEncrypter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCComputerStatus.Designer.vb">
+      <DependentUpon>frmMCComputerStatus.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCComputerStatus.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCEnvironmentVariable.Designer.vb">
+      <DependentUpon>frmMCEnvironmentVariable.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCEnvironmentVariable.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCIntTimeZones.Designer.vb">
+      <DependentUpon>frmMCIntTimeZones.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCIntTimeZones.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCPowerState.Designer.vb">
+      <DependentUpon>frmMCPowerState.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCPowerState.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCRegistry.Designer.vb">
+      <DependentUpon>frmMCRegistry.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCRegistry.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCReport.Designer.vb">
+      <DependentUpon>frmMCReport.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCReport.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCServicesAndProcesses.Designer.vb">
+      <DependentUpon>frmMCServicesAndProcesses.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MyComputerz\frmMCServicesAndProcesses.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Panels\Aboutz.Designer.vb">
+      <DependentUpon>Aboutz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Aboutz.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Entertainmentz.Designer.vb">
+      <DependentUpon>Entertainmentz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Entertainmentz.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\FileSyztem.Designer.vb">
+      <DependentUpon>FileSyztem.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\FileSyztem.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\Internetz.Designer.vb">
+      <DependentUpon>Internetz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\Internetz.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\InterOptions.Designer.vb">
+      <DependentUpon>InterOptions.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\InterOptions.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\MainUtilities.Designer.vb">
+      <DependentUpon>MainUtilities.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\MainUtilities.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Panels\MyComputerz.Designer.vb">
+      <DependentUpon>MyComputerz.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Panels\MyComputerz.vb">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashActivityAnalyser.Designer.vb">
+      <DependentUpon>SplashActivityAnalyser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashActivityAnalyser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashAlarmclock.Designer.vb">
+      <DependentUpon>SplashAlarmclock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashAlarmclock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashCalculator.Designer.vb">
+      <DependentUpon>SplashCalculator.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashCalculator.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashFUWebBrowser.Designer.vb">
+      <DependentUpon>SplashFUWebBrowser.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashFUWebBrowser.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashGoogleID.Designer.vb">
+      <DependentUpon>SplashGoogleID.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashGoogleID.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashIDMvb.Designer.vb">
+      <DependentUpon>SplashIDMvb.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashIDMvb.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashIUM.Designer.vb">
+      <DependentUpon>SplashIUM.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashIUM.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashNotepad.Designer.vb">
+      <DependentUpon>SplashNotepad.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashNotepad.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashScreen1.Designer.vb">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashScreen1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashScreenCapturer.Designer.vb">
+      <DependentUpon>SplashScreenCapturer.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashScreenCapturer.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashShredder.Designer.vb">
+      <DependentUpon>SplashShredder.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashShredder.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Splashs\SplashTextEncrypter.Designer.vb">
+      <DependentUpon>SplashTextEncrypter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Splashs\SplashTextEncrypter.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Entertainment\frmImageViewer.resx">
+      <DependentUpon>frmImageViewer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Entertainment\frmMediaPlayer.resx">
+      <DependentUpon>frmMediaPlayer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmCalchelp.resx">
+      <DependentUpon>frmCalchelp.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmDownloadOptions.resx">
+      <DependentUpon>frmDownloadOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmENCProgress.resx">
+      <DependentUpon>frmENCProgress.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmLicense.resx">
+      <DependentUpon>frmLicense.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmMemoryOptimiser.resx">
+      <DependentUpon>frmMemoryOptimiser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmNewDownload.resx">
+      <DependentUpon>frmNewDownload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmNewUpload.resx">
+      <DependentUpon>frmNewUpload.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmProcessMgr.resx">
+      <DependentUpon>frmProcessMgr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmRestarting.resx">
+      <DependentUpon>frmRestarting.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmTaskMgr.resx">
+      <DependentUpon>frmTaskMgr.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmTermsofUse.resx">
+      <DependentUpon>frmTermsofUse.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\frmVirtualMonitor.resx">
+      <DependentUpon>frmVirtualMonitor.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\NLOptions.resx">
+      <DependentUpon>NLOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\PLOptions.resx">
+      <DependentUpon>PLOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Extras\Preview.resx">
+      <DependentUpon>Preview.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmCopyDirectory.resx">
+      <DependentUpon>frmCopyDirectory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSCopyFile.resx">
+      <DependentUpon>frmFSCopyFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSCreatedirectoey.resx">
+      <DependentUpon>frmFSCreatedirectoey.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSDeleteDirectory.resx">
+      <DependentUpon>frmFSDeleteDirectory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSDeleteFile.resx">
+      <DependentUpon>frmFSDeleteFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSDirectoryAttributes.resx">
+      <DependentUpon>frmFSDirectoryAttributes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSFileAttributes.resx">
+      <DependentUpon>frmFSFileAttributes.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSMoveDirectory.resx">
+      <DependentUpon>frmFSMoveDirectory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSMoveFile.resx">
+      <DependentUpon>frmFSMoveFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSRenameDirectory.resx">
+      <DependentUpon>frmFSRenameDirectory.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FSystem\frmFSRenameFile.resx">
+      <DependentUpon>frmFSRenameFile.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Greetings\ExitingFU.resx">
+      <DependentUpon>ExitingFU.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Greetings\MainSplashScreen.resx">
+      <DependentUpon>MainSplashScreen.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intarnet\frmIDManager.resx">
+      <DependentUpon>frmIDManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intarnet\frmINTGoogleID.resx">
+      <DependentUpon>frmINTGoogleID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intarnet\frmINTWebBroweser.resx">
+      <DependentUpon>frmINTWebBroweser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intarnet\frmIUManager.resx">
+      <DependentUpon>frmIUManager.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Intergrator.resx">
+      <DependentUpon>Intergrator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmActivityAnalyser.resx">
+      <DependentUpon>frmActivityAnalyser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmAdCalculator.resx">
+      <DependentUpon>frmAdCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmAlarm.resx">
+      <DependentUpon>frmAlarm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmNotepad.resx">
+      <DependentUpon>frmNotepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmScreenCapturer.resx">
+      <DependentUpon>frmScreenCapturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmShredder.resx">
+      <DependentUpon>frmShredder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MUtilities\frmTextEncrypter.resx">
+      <DependentUpon>frmTextEncrypter.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCComputerStatus.resx">
+      <DependentUpon>frmMCComputerStatus.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCEnvironmentVariable.resx">
+      <DependentUpon>frmMCEnvironmentVariable.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCIntTimeZones.resx">
+      <DependentUpon>frmMCIntTimeZones.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCPowerState.resx">
+      <DependentUpon>frmMCPowerState.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCRegistry.resx">
+      <DependentUpon>frmMCRegistry.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCReport.resx">
+      <DependentUpon>frmMCReport.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MyComputerz\frmMCServicesAndProcesses.resx">
+      <DependentUpon>frmMCServicesAndProcesses.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Aboutz.resx">
+      <DependentUpon>Aboutz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Entertainmentz.resx">
+      <DependentUpon>Entertainmentz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\FileSyztem.resx">
+      <DependentUpon>FileSyztem.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\Internetz.resx">
+      <DependentUpon>Internetz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\InterOptions.resx">
+      <DependentUpon>InterOptions.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\MainUtilities.resx">
+      <DependentUpon>MainUtilities.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Panels\MyComputerz.resx">
+      <DependentUpon>MyComputerz.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashActivityAnalyser.resx">
+      <DependentUpon>SplashActivityAnalyser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashAlarmclock.resx">
+      <DependentUpon>SplashAlarmclock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashCalculator.resx">
+      <DependentUpon>SplashCalculator.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashFUWebBrowser.resx">
+      <DependentUpon>SplashFUWebBrowser.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashGoogleID.resx">
+      <DependentUpon>SplashGoogleID.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashIDMvb.resx">
+      <DependentUpon>SplashIDMvb.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashIUM.resx">
+      <DependentUpon>SplashIUM.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashNotepad.resx">
+      <DependentUpon>SplashNotepad.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashScreen1.resx">
+      <DependentUpon>SplashScreen1.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashScreenCapturer.resx">
+      <DependentUpon>SplashScreenCapturer.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashShredder.resx">
+      <DependentUpon>SplashShredder.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Splashs\SplashTextEncrypter.resx">
+      <DependentUpon>SplashTextEncrypter.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="ClassDiagram1.cd" />
+    <None Include="My Project\app.manifest" />
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\EULA.rtf" />
+    <None Include="Resources\Intergrater.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\minimize_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\close_normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonBG.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Update.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_UserInfo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layerbutton_Hover.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layerbutton_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layerbutton_Normal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\layerbutton_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Shredder" />
+    <None Include="Resources\SideBarMU.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab_Hover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab_Normal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge_MainUT.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Alarm.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Analyser.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Calculator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Camera.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_encrypt.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Notepad.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alpha_programmstart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logotu.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ioc_shredder.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Systemunit.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_SubSplashs.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Analyserpng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_GreenPlus.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Reset.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Shutdown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Exiting.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Redo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Undo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_AB.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_risky.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Clock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Calender.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_AddToList.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Tools.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Plugin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Fonts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Favorites.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Taskbar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SoftwareUninstalled_32x32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Spanner.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_System.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_Panelwhite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_Menubar1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_Menubar2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_Header.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon_RescueCenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_alpha_CPU_16x16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Calchelp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Check.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Critical.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_reportcenter.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Protection.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ani_Loader[1].gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Switchoff.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SwitchOn.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_Vista.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_Photoflash.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Abmwave.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_FeedDiscovered.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_Ding.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_GoArrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Folderimage.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BCL.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BSN.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Rename.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Attributes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_XPPowerstate.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_powerpreferences.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_cpu3d.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Clockbig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Registry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_registry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Chart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ico_EnergyOptions.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_ServicePause.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_ServiceResume.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_ServiceStart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_ServiceStop.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_RefreshSmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ico_RAMBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SwapFile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_ServiceManager.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_CPUBig.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SessionLogout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge_worldmap.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge_bgleft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ford_Mustang.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_TaskmgrHover1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_TaskmgrNormal1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_TaskmgrNormal2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_TaskmgrHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_TaskmgrNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_ProgramDeactivator.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Exclamation.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small-switch-off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\small-switch-on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LED_Green.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LED_Red.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Progress.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Service.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_Left.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow_Right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Crown.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_deletesmall.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Reload.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_Facebook.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonGreen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonGreenH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonGrey.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ButtonGreyH.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Pictures.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_GO.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Print.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_scan.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\royal_browser.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\badge_Entertainment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_web.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_IViewerHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_IViewerNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_MPlayerHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_MPlayerNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_FileDownloaderHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_FileDownloaderNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_FileUploadHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_FileUploadNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_GIDHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_GIDNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_WebBrowserHover.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\button_WebBrowserNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Google.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_sidebar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AxWMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>aximp</WrapperTool>
+      <Isolated>False</Isolated>
+    </COMReference>
+    <COMReference Include="WMPLib">
+      <Guid>{6BF52A50-394A-11D3-B153-00C04F79FAA6}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_Navigation.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_PopupBlocked.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SandClock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intergrater2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\tab_Active.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_User.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_About.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Windows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Compatible.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_BatteryCharging.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_BatteryFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_BatteryLow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_BatteryNormal.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_Plug.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SingnalFull.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ico_SingnalNone.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pic_About1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_Aloysius.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo_SriLanka.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Intergrater3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_Logoff.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\sfx_Logon.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bg_SplashBYE.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="icon_FU.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
